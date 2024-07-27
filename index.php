@@ -67,7 +67,7 @@
           <option value="6">6</option>
         </select>
       </div>
-      <button type="submit">Buscar</button>
+      <button clas="boton" type="submit">Buscar</button>
       </div>
     </form>
     
