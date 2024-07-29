@@ -15,9 +15,11 @@
   </head>
   <body>
     <h1 id="title">Agencia de viajes</h1>
-    <button id="carrito" onclick="window.location.href='carrito.php';">Ir al carrito</button>
-    <button id="carrito" onclick="window.location.href='mantenimiento.php';">Mantenimiento Hoteles</button>
-    <button id="carrito" onclick="window.location.href='mantenimiento_vuelos.php';">Mantenimiento Vuelos</button>
+    <div class="opciones">
+      <button id="carrito" onclick="window.location.href='carrito.php';">Ir al carrito</button>
+      <button id="carrito" onclick="window.location.href='mantenimiento.php';">Mantenimiento Hoteles</button>
+      <button id="carrito" onclick="window.location.href='mantenimiento_vuelos.php';">Mantenimiento Vuelos</button>
+    </div>
     <div class="formStyle " >
     <form id="filterForm"   method="post" action="">
       <div class="contentform">

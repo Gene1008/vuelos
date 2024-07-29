@@ -1,11 +1,22 @@
+body {
+  background-color: #fff4fd;
+}
+
 h1{
   text-align: center;
   margin-top: 3%;
 }
 
-.formStyle {
+#title{
   text-align: center;
   margin-top: 3%;
+  background-color: violet;
+  padding: 1%;
+}
+
+.formStyle {
+  text-align: center;
+  margin-top: 1%;
   margin-left: 10%;
   margin-right: 10%;
   background-color: violet;
@@ -34,7 +45,6 @@ table{
   height: 75px;
   text-align: center;
   border-radius: 10px;
-
 }
 
 td{
@@ -45,16 +55,22 @@ th{
   border: 1px solid gray;
 }
 
-.carrito {
-  display: flexbox;
+#carrito {
   margin-top: 0.1%;
-  margin-left: 80%;
   background-color: violet;
   border-radius: 10px;
+  padding: 0.3%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
 }
 
 h2 {
   margin-left: 10%;
+}
+
+.opciones {
+text-align: right;
+margin-right: 3%;
 }
 
 .boton{
